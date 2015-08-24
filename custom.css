@@ -1,0 +1,419 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+.download_page .tm-wrapper > .tm-block-secondary:first-child{
+	margin-top:-6px;
+}
+
+.driver_page .tm-teaser,
+.driver_page .tm-wrapper .tm-block-secondary:first-child{
+	background: url(../images/driver.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;	
+min-height:350px;
+}
+
+.driver_top_teaser_text{
+	color: #fff;
+}
+
+.driver_bottom_align{
+	margin-top:200px;
+}
+
+.driver_page .app_buttons{
+	min-width: 190px;
+background: none;
+border: 3px solid #fff;
+border-radius: 10px;
+color: #fff;	
+margin-right:15px;
+}
+
+.driver_page .app_buttons:hover,
+.driver_page .app_buttons:active,
+.driver_page .app_buttons:focus{
+background: none;
+border: 3px solid #0088bf;
+border-radius: 10px;
+color: #0088bf;	
+}
+
+/*
+.driver_bottom_align{
+	margin-bottom:100px;
+}
+*/
+
+.home_image_1{
+	bottom:25px!important;
+}
+
+p.tm-teaser-text-secondary,
+p.app_button_container{
+	margin-left:150px;
+}
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.video-wrapper {
+width: 930px;
+max-width: 100%;
+margin: 0 auto;
+}
+
+.top_teaser_title{
+color: #099fba;
+font-size: 22pt; 
+font-family: arial, helvetica, sans-serif;
+margin-bottom: -10px;
+display: block;
+}
+.top_teaser_text{
+	color: #5c5c5c;
+	font-size: 13pt;
+}
+
+/*
+.tm-negativ-margin-top {
+margin-top: -70px;
+}
+*/
+
+.country_button{
+background: none;
+border: 2px solid #fff;
+color: #fff;	
+border-radius: 5px;
+margin-left:15px;
+}
+.country_button:hover,
+.country_button:active,
+.country_button:focus{
+background: none;	
+border: 2px solid #262f31;
+color: #262f31;	
+}
+
+.country_drop{
+	margin-left:30px;
+}
+
+.country_drop .uk-dropdown-navbar{
+	margin-top: 19px;
+	margin-left:15px;
+}
+
+.app_buttons{
+	min-width: 190px;
+background: none;
+border: 3px solid #0088bf;
+border-radius: 10px;
+color: #0088bf;	
+margin-right:15px;
+}
+
+.app_buttons_android{
+	min-width: 170px;
+}
+
+.app_buttons:hover,
+.app_buttons:active,
+.app_buttons:focus{
+background: none;
+border: 3px solid #fff;
+border-radius: 10px;
+color: #fff;	
+}
+
+.app_buttons i{
+	float: left;
+margin: 13px 13px 13px 0px;
+}
+
+.app_text{
+	display: block;
+	margin-top:-12px;
+}
+
+.tm-navbar-fixed .tm-toolbar + .tm-headerbar {
+margin-top: 56px;
+}
+.tm-navbar-fixed .tm-toolbar-small{
+	position: absolute;
+}
+.tm-navbar-fixed .tm-toolbar + .tm-headerbar-small{
+	margin-top: 0px;
+}
+
+.tm-toolbar .uk-float-left{
+	float:none;
+}
+
+.tm-toolbar{
+	padding:8px 0px;
+	color: #fff;
+	background: #005679;
+	border-bottom: 4px solid #0088bf;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+color: #099fba;
+}
+
+
+.uk-button-yellow{
+background: none;
+border: 1px solid #ffcb04;
+border-radius: 5px;
+color: #ffcb04;	
+line-height: 30px;
+min-height: 30px;	
+}
+.uk-button-yellow:hover,
+.uk-button-yellow:active,
+.uk-button-yellow:focus{
+background: none;
+border: 1px solid #fff;
+color: #fff;	
+}
+
+/*
+
+
+.app_img_div:hover{
+	left:0px;
+}
+*/
+
+/* 關於我們 Youtube影片高度限制 預先定義影片class為about_us_video1 */ 
+.about_us_video1{
+min-height:200px;
+}
+
+
+/* 文章標題修改 */ 
+.uk-article-title {
+font-size: 24px; /* 字體大小 */
+line-height: 32px; /* 行間 */
+font-weight: normal;
+text-transform: none;
+letter-spacing: 0em; /* 字間 */
+}
+
+/* 天空藍修改 */ 
+
+.tm-headerbar {
+background: #ffcb04;
+} /* 主選單背景 */
+
+.tm-teaser {
+background: #ffcb04;
+} /* 首頁主圖背景 */
+
+.tm-block-primary {
+background: #1C94D0;
+} /* 社群網站連結背景 */
+
+.tm-mark-scribble {
+background: #1C94D0;
+} /* 首頁主文藍色文字橫條色塊標色 */
+
+.tm-button-teaser {
+color: #1C94D0;
+} /* 白色icon中連結文字顏色 */
+
+.tm-mini-divider {
+border-bottom: 1px solid #1C94D0;
+} /* 首頁3個特色下方細色塊顏色 */
+
+.uk-button-primary {
+background-color: #1C94D0;
+} /* 藍色icon底色 */
+
+a, .uk-link {
+color: #1C94D0;
+} /* 連結文字顏色 */
+
+.tm-news-date {
+background: #1C94D0;
+} /* 首頁網誌日期對話框圓形部份底色 */
+
+.tm-news-date:before {
+border-color: transparent transparent transparent #1C94D0;
+}  /* 首頁網誌日期對話框尖頭部份底色 */
+
+.uk-overlay-area:after {
+background: #1C94D0;
+}  /* 首頁影像牆放大鏡底色 */
+
+.uk-icon-button {
+background: #1C94D0;
+}  /* 社群網站按鈕底色 */
+
+.uk-icon-button:hover,
+.uk-icon-button:focus {
+  background-color: #0BC9EB;
+}  /* 社群網站滑鼠移動上去時的按鈕底色 */
+
+.tm-totop-scroller.tm-block-secondary {
+color: #1C94D0;
+}  /* 回到頂層箭頭顏色 */
+
+.tm-block-secondary .tm-title-line {
+color: #1C94D0 !important;
+}  /* 首頁百分比圓餅圖Move it標題 */
+
+.tm-block-secondary svg.uk-circlechart path {
+fill: #1C94D0;
+}  /* 首頁百分比圓餅圖圓圈顏色 */
+
+.tm-primary-title {
+color: #1C94D0 !important;
+}  /* 首頁百分比圓餅圖標題顏色 */
+
+.uk-panel-box .uk-panel-title {
+color: #1C94D0;
+}  /* 白色BOX標題顏色 */
+
+.uk-panel-header .uk-panel-title {
+color: #1C94D0;
+}  /* 藍色BOX標題顏色 */
+
+.uk-nav > li.uk-active > a, .uk-nav-dropdown > li.uk-active > a {
+color: #1C94D0;
+}  /* BOX進入該分類文字顏色 */
+
+.uk-panel-box-primary {
+background-color: #1C94D0;
+border: 1px solid #1C94D0;
+}  /* 藍色BOX顏色 */
+
+.uk-panel-box-primary a {
+color: #0BC9EB;
+}  /* 藍色BOX連結前文字顏色 */
+
+.uk-badge {
+background: #1C94D0;
+}  /* 文章末出處藍色註解色塊 */
+
+.tm-block-padding-top-bottom {
+  padding: 40px 0;
+}  /* 首頁社群網站連結 下方著作權上下行間 原始設定60px */
+
+
+
+/* Logo size */
+.tm-logo {
+width: 146px;
+height: auto;
+}
+.tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand img{
+	height:auto;
+	width:57px;
+}
+
+/* 網誌下方換頁圖示  */
+.pagenav {
+	text-align: right
+}
+
+.pagenav ul {
+	display: inline-block;
+	*display: inline;
+	/* IE7 inline-block hack */
+	list-style-type: none;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.pagenav li {
+	display: inline;
+	margin: 0px;
+	padding: 0
+}
+
+.pagenav a,span.pagenav {
+	padding: 0 14px;
+	margin: 0;
+	line-height: 1.9em;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	border-left: 0px solid #ddd;
+	display: inline-block;
+	line-height: 1.9em;
+}
+
+.pagenav li:first-child a,.pagination-start span {
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+	border-left: solid 1px #ddd
+}
+
+.pagenav li:last-child a,.pagination-end span {
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.pagination ul {
+	margin: 10px 10px 10px 0;
+	padding: 0
+}
+
+.pagination li {
+	display: inline;
+}
+
+.pagination a {
+	padding: 0 14px;
+	line-height: 2em;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	border-left: 0px solid #ddd;
+	display: inline-block
+}
+
+.pagination .active a {
+	cursor: default;
+}
+
+.pagination span,.pagination span  a:hover {
+	cursor: default;
+	padding: 0 14px;
+	line-height: 2em;
+}
+
+.pagination li:first-child a {
+	border-left-width: 1px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.pagination li:last-child a {
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
